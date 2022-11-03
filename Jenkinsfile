@@ -15,12 +15,6 @@ pipeline {
           }
         }
 
-        stage('devel') {
-          steps {
-            sh 'ps au'
-          }
-        }
-
       }
     }
 
