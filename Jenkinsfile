@@ -11,7 +11,8 @@ pipeline {
 
         stage('demo') {
           steps {
-            sh 'ca marche ?'
+            sh '''ca marche ?
+oui ou non ?'''
           }
         }
 
